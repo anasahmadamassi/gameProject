@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #toggleButton {
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            background-color: #474747;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 37px;
+            height: 37px;
+            transition: all 0.5s;
+        }
+        #toggleButton.checked {
+            background-color: green;
+            width: 37px;
+            height: 37px;
+            transform: scale(0.8);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            outline: solid 6px rgba(0, 0, 0, 0.055);
+        }
+        .checkmark {
+
+        }
+    </style>
+</head>
+<body>
+    <button id="toggleButton" onclick="toggleCheckmark()"></button>
+    <script>
+        function toggleCheckmark() {
+            const toggleButton = document.getElementById("toggleButton");
+            toggleButton.classList.toggle("checked");
+
+            const checkmark = document.createElement("span");
+            checkmark.textContent = "✔";
+            checkmark.className = "checkmark";
+
+            if (toggleButton.classList.contains("checked")) {
+                toggleButton.appendChild(checkmark);
+            } else {
+                const existingCheckmark = toggleButton.querySelector(".checkmark");
+                if (existingCheckmark) {
+                    existingCheckmark.remove();
+                }
+            }
+        }
+    </script>
+</body>
+</html>
