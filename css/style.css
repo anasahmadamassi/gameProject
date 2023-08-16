@@ -447,9 +447,10 @@ input[type="checkbox"]{
     opacity: .5;
     transition: all 0.5s;
 }
+
 .header .headerRow .nav .navbar .listNav .linkNav.active{
     padding-bottom: 3px;
-    border-bottom: solid #05A52F 2px;
+    border-bottom: solid #00FF44 3px;
     font-size: 22px;
     color: #FFF;
     opacity: 1;
@@ -549,7 +550,7 @@ input[type="checkbox"]{
     z-index: 1000;
 }
 button.active {
-    background-color: #05A52F !important;
+    background-color: #05A52F !important;   
 }
 .container-img{
     position: absolute;
@@ -559,17 +560,31 @@ button.active {
 }
 .container-img .imgPage{
     display: flex;
+    flex-direction: row;
     width: 100%;
 }
 .container-img .imgPage .imgVisit{
     width: 20%;
-    transform: translatey(8px);
+    transform: translatey(20%);
 
 }
 .container-img .imgPage .imgVisit img{
     width: 100%;
+    transition: transform 0.3s ease;
     transform: scale(1.03);
     cursor: pointer;
+}
+
+.container-img .imgPage .imgVisit:target img{
+    transform: scale(15);
+}
+
+.container-img .imgPage .imgVisit img:hover{
+    transform: scale(1.05);
+}
+
+.container-img .imgPage .imgVisit img:target{
+    transform: scale(1.2);
 }
 
 /* page 5  */
@@ -676,7 +691,7 @@ button.active {
     width: 100%;
     height: 100%;
     background-color: #000;
-    opacity: .7;
+    opacity: .7 ;
 }
 
 /* page 7 */
@@ -754,6 +769,58 @@ button.active {
     background-color: #171717;
     opacity: .7;
 }
+
+/* page about */
+
+.hero .container .heroContentb{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 312.01px;
+    width: 44.5625rem;
+    height: 5rem;
+    flex-shrink: 0;
+}
+
+.hero .container .heroContentb .aboutTitel{
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero .container .heroContentb .aboutPra{
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.coverImgb {
+    background-image: url('../imgs/about/section.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: 35%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.coverImgb .boldImgb{
+    background-color: #000000c4;
+    opacity: .2;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 /* end */
 
