@@ -8,22 +8,18 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #272727;
 }
-
 /* global Style */
 .container{
     width: 1640px;
     margin: 0 auto;
 }
-
 .titlePage{
     font-size: 60px;
     color: #fff;
     font-weight: 400;
     margin-bottom: 1.25rem;
 }
-
 .textPage{
     font-size: 1.5rem;
     color: #fff;
@@ -31,9 +27,7 @@ body {
     padding-right: 15px;
     line-height: 1.5;
     margin-bottom: 2rem;
-    opacity: .6;
 }
-
 .btnPage{
     padding: 1.50rem;
     display: flex;
@@ -46,29 +40,17 @@ body {
     width: 71%;
     margin-bottom: 2rem;
 }
-
-.btnPage:hover{
-    background-color: #05A52F;
-}
-
 .btnPage p{
     font-size: 33px;
     margin-right: 1.25rem;
 }
-
 .linkHero{
     display: flex;
 }
-
 .linkHero svg:first-child{
     margin-right: 1rem;
     margin-left: 0.75rem;
 }
-
-input[type="checkbox"]{
-    accent-color: #4a4242;
-}
-
 /* style page 1 */
 
 .coverImg {
@@ -83,7 +65,6 @@ input[type="checkbox"]{
     bottom: 0;
     left: 0;
 }
-
 .coverImg .boldImg{
     background-color: #000000c4;
     width: 100%;
@@ -95,20 +76,17 @@ input[type="checkbox"]{
     place-items: center;
     height: 100vh;
 }
-
 .container-ofBirth .birth{
     background-color: rgba(25, 27, 32, 1);
     padding: 80px 71.5px 125px 79px;
     z-index: 10;
     border-radius: 12px;
 }
-
 .container-ofBirth .birth .logo1 {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 }
-
 .container-ofBirth .birth h5{
     font-size: 32px;
     color: #fff;
@@ -116,14 +94,12 @@ input[type="checkbox"]{
     font-weight: 400;
     margin-top: 46px;
 }
-
 .container-ofBirth .birth .form-birth{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 68px 0;
 }
-
 .container-ofBirth .birth .form-birth input ,
 .container-ofBirth .birth .form-birth select {
     background-color: transparent;
@@ -135,16 +111,13 @@ input[type="checkbox"]{
     width: 189px;
     font-size: 32px;
 }
-
 .container-ofBirth .birth .form-birth select:first-child{
     margin-left: 11px;
 }
-
 .container-ofBirth .birth .form-birth select:nth-child(2){
     margin-right: 77px;
     margin-left: 58px;
 }
-
 .birth .qusBirth{
     color: #FFF;
     font-size: 24px;
@@ -152,16 +125,13 @@ input[type="checkbox"]{
     font-weight: 400;
     transition: all 0.5s;
 }
-
 .birth .qusBirth:hover{
     color: #45ff76;
 }
-
 .birth .continueBtn{
     display: flex;
     justify-content: center;
 }
-
 .birth .continueBtn .continue{
     width: 90%;
     margin-top: 125px;
@@ -174,27 +144,22 @@ input[type="checkbox"]{
     border: none;
     transition: all 0.5s;
 }
-
 .birth .continueBtn .continue:hover{
     background-color: #00631a;
 }
-
 .birth .continueBtn .continue a {
     color: #fff;
     text-decoration: none;
 }
-
 .birth p{
     color: #fff;
     font-size: 24px;
     text-align: center;
 }
-
 .birth .account-sign a{
     color: #fff;
     transition: all 0.5s;
 }
-
 .birth .account-sign a:hover{
     color: #45ff76;
 }
@@ -216,11 +181,9 @@ input[type="checkbox"]{
     margin-bottom: 57.5px;
     text-transform: capitalize;
 }
-
 .signUp .controlForm.selectControl{
     position: relative;
 }
-
 .signUp .controlForm.selectControl label{
     font-size: 16px;
     color: #686868;
@@ -228,35 +191,28 @@ input[type="checkbox"]{
     left: 19.5px;
     top: 6px;
 }
-
 .signUp .controlForm.selectControl .form-select{
     padding: 28px 19.5px 27px;
     font-size: 20px;
     color: #fff;
     letter-spacing: 2px;
 }
-
 .signUp .controlForm.selectControl .form-select option{
     font-weight: 400;
     color: black;
 }
-
 .signUp .rowForm{
     display: flex;
 }
-
 .signUp .rowForm .controlForm {
     width: 50%;
 }
-
 .signUp .rowForm .controlForm:first-child {
     margin-right: 22.5px;
 }
-
 .signUp .rowForm .controlForm:last-child {
     margin-left: 22.5px;
 }
-
 .signUp .controlForm .form-select,
 .signUp .controlForm input {
     width: 100%;
@@ -269,7 +225,6 @@ input[type="checkbox"]{
     font-size: 20px;
     color: #fff;
 }
-
 .signUp .controlForm .form-select:focus,
 .signUp .controlForm input:focus{
     outline: none;
@@ -280,12 +235,10 @@ input[type="checkbox"]{
 .signUp .checkboxForm .boxControl{
     display: flex;
 }
-
 .signUp .checkboxForm .boxControl:first-child{
     margin-bottom: 20px;
     margin-top: 11px;
 }
-
 .signUp .checkboxForm .boxControl input{
     width: 37px;
     height: 37px;
@@ -293,12 +246,10 @@ input[type="checkbox"]{
     margin-right: 10px;
     border-radius: 10px;
 }
-
 .signUp .checkboxForm .boxControl label{
     font-size: 20px;
     color: #B2B1B1;
 }
-
 .signUp .continueBtn.cue-login .continue{
     margin-top: 44px;
     padding: 26px;
@@ -375,7 +326,7 @@ input[type="checkbox"]{
 .signUp .signAbout .social{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 }
 .signUp .signAbout .social .media.iphone{
     margin: 0 68px;
@@ -384,7 +335,7 @@ input[type="checkbox"]{
     transition: all 0.5s;
 }
 .signUp .signAbout .social .media svg:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .signUp .signAbout {
     width: 694px;
@@ -445,16 +396,11 @@ input[type="checkbox"]{
 .header .headerRow .nav .navbar .listNav .linkNav{
     color: #fff;
     text-decoration: none;
-    opacity: .5;
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
-
 .header .headerRow .nav .navbar .listNav .linkNav.active{
     padding-bottom: 3px;
-    border-bottom: solid #00FF44 3px;
-    font-size: 22px;
-    color: #FFF;
-    opacity: 1;
+    border-bottom: solid #05A52F 2px;
 }
 .header .headerRow .nav .navbar:hover .listNav .linkNav{
     opacity: 0.7;
@@ -463,8 +409,6 @@ input[type="checkbox"]{
     padding-bottom: 3px;
     border-bottom: solid #05A52F 2px;
     opacity: 1 !important;
-    font-size:23px;
-    color: #FFF;
 }
 .header .headerRow .linkHeader{
     display: flex;
@@ -486,6 +430,7 @@ input[type="checkbox"]{
     border-radius: 50%;
     outline: solid #686868 2px;
 }
+/* asdas */
 .hero{
     display: grid;
     place-items: center;
@@ -494,7 +439,7 @@ input[type="checkbox"]{
 }
 .hero .heroContent{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
 }
 .hero .heroContent .discHero{
@@ -551,7 +496,7 @@ input[type="checkbox"]{
     z-index: 1000;
 }
 button.active {
-    background-color: #05A52F !important;   
+    background-color: #05A52F !important;
 }
 .container-img{
     position: absolute;
@@ -561,326 +506,24 @@ button.active {
 }
 .container-img .imgPage{
     display: flex;
-    flex-direction: row;
     width: 100%;
 }
 .container-img .imgPage .imgVisit{
     width: 20%;
-    transform: translatey(20%);
+    transform: translatey(15px);
 
 }
 .container-img .imgPage .imgVisit img{
     width: 100%;
-    transition: transform 0.3s ease;
     transform: scale(1.03);
-    cursor: pointer;
 }
-
-.container-img .imgPage .imgVisit:target img{
-    transform: scale(15);
-}
-
-.container-img .imgPage .imgVisit img:hover{
-    transform: scale(1.05);
-}
-
-.container-img .imgPage .imgVisit img:target{
-    transform: scale(1.2);
-}
-
-/* page 5  */
-.coverImga {
-    background-image: url('../imgs/page-5/background.png');
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-    background-position: 35%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.coverImga .boldImga{
-    background-color: #000000dc;
-    opacity: .1;
-    width: 100%;
-    height: 100%;
-}
-
-.textPagea{
-    font-size: 1.5rem;
-    color: #fff;
-    font-weight: 400;
-    padding-right: 165px;
-    line-height: 1.5;
-    margin-bottom: 2rem;
-    opacity: .6;
-}
-
-.btnPagea{
-    padding: 1.50rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid #05A52F 6px;
-    border-radius: 12px;
-    color: #fff;
-    text-decoration: none;
-    width: 71%;
-    margin-bottom: 2rem;
-}
-
-.btnPagea:hover{
-    background-color: #05A52F;
-}
-
-.btnPagea p{
-    font-size: 30px;
-    margin-right: 1.25rem;
-}
-
-.hero .heroContenta{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    transform: translatey(50%)
-}
-.hero .heroContenta .discHero{
-    width: 41%;
-    flex: 0 0 41%;
-}
-.hero .heroContenta .discHero .titlePage{
-    margin-bottom: 1.25rem;
-}
-.hero .heroContenta .sliderHero{
-    width: 59%;
-    flex: 0 0 59%;
-    position: relative;
-}
-.hero .heroContenta .sliderHero .ellImg{
-    position: absolute;
-    bottom: -110px;
-    right: -120px;
-    z-index: -1;
-}
-
-.container-img .imgPage .visit{
-    position: relative;
-    width: 20%;
-    transform: translatey(8px);
-}
-
-/* page 6 */
-
-
-.coverImgaa {
-    background-image: url('../imgs/page6/1151164.png');
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-    background-position: 35%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.coverImgaa .boldImgaa{
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    opacity: .7 ;
-}
-
-/* page 7 */
-
-.coverImgaaa {
-    background-image: url('../imgs/page-7/1168382.png');
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-    background-position: 35%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.coverImgaaa .boldImgaaa{
-    width: 100%;
-    height: 100%;
-    background-color: #171717;
-    opacity: .7;
-}
-
-
-/* page 8 */
-
-.coverImgaaaa {
-    background-image: url('../imgs/page-8/1191164.png');
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-    background-position: 35%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.coverImgaaaa .boldImgaaaa{
-    width: 100%;
-    height: 100%;
-    background-color: #171717;
-    opacity: .7;
-}
-
-.textPageaa{
-    font-size: 1.5rem;
-    color: #fff;
-    font-weight: 400;
-    line-height: 1.5;
-    margin-bottom: 2rem;
-    opacity: .6;
-}
-
-/* page 9 */
-
-.coverImgaaaaa {
-    background-image: url('../imgs/page-9/thumb-1920-1151249.png');
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-    background-position: 35%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.coverImgaaaaa .boldImgaaaaa{
-    width: 100%;
-    height: 100%;
-    background-color: #171717;
-    opacity: .7;
-}
-
-/* page about */
-
-.coverImgb {
-    background-image: url('../imgs/about/section.png');
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-    background-position: 35%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.coverImgb .boldImgb{
-    background-color: #000000c4;
-    opacity: .2;
-    width: 100%;
-    height: 100%;
-}
-
-
-.hero .container .heroContentb{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin-top: 312.01px;
-    width: 44.5625rem;
-    height: 5rem;
-    flex-shrink: 0;
-}
-
-.hero .container .heroContentb .aboutTitel{
-    color: #FFF;
-    font-family: Segoe UI;
-    font-size: 2.8125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.hero .container .heroContentb .aboutPra{
-    color: #FFF;
-    font-family: Segoe UI;
-    font-size: 1.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.hero .container .our{
-    color: #FFF;
-    font-family: Segoe UI;
-    font-size: 2.8125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 130px 0;
-    text-align: center;
-}
-
-.hero .group-cards{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 1920px;
-}
-
-.hero .card{
-    width: 25.97463rem;
-    height: 47rem;
-    flex-shrink: 0;
-    background-color: #141B24;
-    margin: 51px;
-    border-radius: 20px;
-    flex-shrink: 0;
-
-}
-
-.hero .card img{
-    position: relative;
-}
-
-.hero .card .content{
-    padding: 3.81rem 2.563rem 1.4rem 2.54rem;
-}
-
-.hero .card .title{
-    color: #FFF;
-    font-family: Segoe UI;
-    font-size: 1.375rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-bottom: 1.4rem;
-
-}
-
-.hero .card .content .textCard{
-    color: #FFF;
-    font-family: Segoe UI;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 
 /* end */
+
+
+
+
+
 
 /* Responsive */
 @media screen and (max-width: 1366px){
@@ -1016,7 +659,6 @@ button.active {
     }
 }
 @media (max-width: 1200px){
-    
 }
 @media (max-width: 992px){
 
@@ -1028,4 +670,5 @@ button.active {
     .container-ofBirth .birth h5 {
         font-size: 20px;
     }
+
 }

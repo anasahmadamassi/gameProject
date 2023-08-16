@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #colorChangeDiv {
+            width: 37px;
+            height: 37px;
+            background-color: gray;
+            color: white;
+            text-align: center;
+            line-height: 37px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-radius: 10px;
+            color: gray;
+            /* sadas */
+            -webkit-touch-callout:none;
+            -webkit-user-select:none;
+            -khtml-user-select:none;
+            -ms-user-select:none;
+            -moz-user-select:none;
+        }
+    </style>
+</head>
+<body>
+    <div dis id="colorChangeDiv" onclick="changeColor()">✔</div>
+    <!-- script file js -->
+    <script>
+        function changeColor() {
+            const colorChangeDiv = document.getElementById("colorChangeDiv");
+            const currentColor = colorChangeDiv.style.backgroundColor;
+            // If the current background color is gray, change it to green. Otherwise, change it back to gray.
+            if (currentColor === "gray" || currentColor === "") {
+                colorChangeDiv.style.backgroundColor = "green";
+                colorChangeDiv.style.color = "white";
+            } else {
+                colorChangeDiv.style.backgroundColor = "gray";
+                colorChangeDiv.style.color = "gray";
+            }
+        }
+    </script>
+</body>
+</html>
