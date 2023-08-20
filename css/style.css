@@ -879,6 +879,106 @@ button.active {
     line-height: normal;
 }
 
+.hero .container .title-medel{
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 3.287rem;
+    margin-bottom: 2rem;
+}
+
+.hero .container .gameHumGroup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5.938rem;
+}
+
+
+.hero .container .gameHumGroup .gameTitle{
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 1.14rem;
+    margin-top: 4.2rem;
+}
+
+.hero .container .gameHumGroup .game{
+    width: calc(100%/3);
+    padding: 0 120px;
+    margin: 5px;
+}
+
+.hero .container .gameHumGroup .game-summery{
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 6.25rem;
+}
+
+.container-Apply {
+    background-color: #333333;
+    border-radius: 20px;
+    margin-top: 5.938rem;
+    width: 1900px;
+    height: 432.17px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container-Apply .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4.375rem auto ;
+    
+}
+
+.container-Apply .center .group-apply p{
+    text-align: center;
+    color: #FFF;
+}
+
+.container-Apply .center .group-apply .title-apply{
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 2.3125rem;
+    font-weight: 400;
+}
+
+.container-Apply .center button{
+    width: 18.08788rem;
+    height: 3.749rem;
+    background-color: #0078F2;
+    border-radius: 20px;
+    margin-top: 4.169rem;
+    margin-bottom: 1.938rem;
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.container-Apply .center .group-apply .body-apply{
+    color: #0AAFF1;
+    font-family: Segoe UI;
+    font-size: 0.9625rem;
+    font-weight: 400;
+    margin: 0.688rem;
+
+}
 
 /* end */
 
