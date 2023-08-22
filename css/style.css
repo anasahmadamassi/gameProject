@@ -982,6 +982,9 @@ button.active {
 
 .footer{
     margin-top: 9.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1902px;
 }
 
 /* Games page */
