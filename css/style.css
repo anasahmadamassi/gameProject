@@ -984,6 +984,169 @@ button.active {
     margin-top: 9.3rem;
 }
 
+/* Games page */
+
+.GamesImg {
+    background-image: url('../imgs/games/12738.jpg.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: 35%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.GamesImg .boldImg{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .2;
+}
+
+.hero .container .heroContentb .gamesTitel{
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 1.5625rem;
+    font-weight: 400;
+}
+.hero .container .heroContentb .gamesPrice{
+    display: flex;  
+    margin-top: 0.469rem;
+}
+
+#discount{
+    border-radius: 9.8px 4.9px;
+    background-color: #0B852B;
+    margin-right: 1.375rem;
+    padding: 7px 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regularPrice{
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.a{
+    height: 4.25806rem;
+    transform: rotate(0.974deg);
+    background-color: #272727;
+}
+
+.heroe .container #heroContent{
+    margin-top: 5.8rem;
+}
+
+.heroe .container .heroContent .herder{
+    display: flex;
+    justify-content: space-between;
+    z-index: 11300;
+}
+
+.heroe .container .heroContent .herder .trending{
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 1.5625rem;
+    font-weight: 400;
+}
+
+.heroe .container .heroContent .herder button{
+    z-index: 1111;
+    background-color: #3D3D3D;
+    color: #FFF;
+    padding: 12px 19px;
+    border-radius: 35px;
+    border-color: #3D3D3D;
+}
+
+.heroe .container .heroContent .imgContainer{
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 1920px; */
+    justify-content: space-between;
+    margin-top: 11.9px;
+}
+
+.heroe .container .heroContent .imgContainer .imgBox{
+    margin-bottom: 23.7px;
+}
+
+.heroe .container .heroContent .imgContainer .imgBox .game-name-price{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.heroe .container .heroContent .imgContainer .imgBox .game-name-price p{
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+
+
+.heroe .container .heroContent .imgContainer .imgBox .discount{
+    position: relative;
+    margin-top: -120px;
+    margin-left: 19px;
+}
+
+.discount{
+    border-radius: 9.8px 4.9px;
+    background-color: #0B852B;
+    margin-right: 1.375rem;
+    padding: 7px 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+}
+
+.heroe   .rate{
+    background-color: #101010;
+    margin: 0 auto;
+    margin-top: 4.71rex;
+}
+.heroe   .rate .containerRate{
+    display: flex;
+    justify-content: center;
+}
+.heroe   .rate .containerRate .Super{
+    padding: 4.7rem;
+    display: flex;
+}
+
+.heroe   .rate .containerRate .Super p{
+    color: #FFF;
+    margin-left: 15.7px;
+}
+.heroe   .rate .containerRate .Super .rateTitle{
+    font-family: Segoe UI;
+    font-size: 1.3125rem;
+    font-weight: 400;
+}
+.heroe   .rate .containerRate .Super .rateSammry{
+    color: #909090;
+    font-family: Segoe UI;
+    font-size: 0.9375rem;
+    font-weight: 400;
+}
+
 /* end */
 
 /* Responsive */
