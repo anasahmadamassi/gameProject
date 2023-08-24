@@ -1070,6 +1070,7 @@ button.active {
     padding: 12px 19px;
     border-radius: 35px;
     border-color: #3D3D3D;
+    border: none;
 }
 
 .heroe .container .heroContent .imgContainer{
@@ -1211,6 +1212,61 @@ button.active {
     border-radius: 12px;
 }
 
+.coments{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.coments .card{
+    background-color: #323232;
+    border-radius: 20px;
+    margin-left: 33.7px;
+}
+
+
+.coments .card .card-title{
+    display: flex;
+    align-items: center;
+    margin-top: 22.1px;
+    margin-left: 25.1px;
+}
+
+.coments .card .card-title p{
+    color: #FFF;
+    margin-top: 8.1px;
+    font-family: Inter;
+}
+.coments .card .card-title .title-group{
+    margin-left: 16.9px;
+}
+
+.coments .card .card-text p{
+    margin: 28.1px 25.1px 31px 25.1px;
+    width: 260px;
+    color: #909090;
+    font-family: Segoe UI;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    font-family: Segoe UI;
+}
+
+.coments .card .crad-time p{
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    margin-left: 25.1px;
+    margin-bottom: 21.8px;
+    font-family: Segoe UI;
+}
+
+.title-Dying{
+    color: #FFF;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    width: 172px ;
+}
 
 /* end */
 
