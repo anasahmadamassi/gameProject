@@ -1081,7 +1081,7 @@ button.active {
 }
 
 .heroe .container .heroContent .imgContainer .imgBox{
-    margin-bottom: 23.7px;
+    margin-bottom: 40px;
 }
 
 .heroe .container .heroContent .imgContainer .imgBox .game-name-price{
@@ -1108,16 +1108,18 @@ button.active {
 .discount{
     border-radius: 9.8px 4.9px;
     background-color: #0B852B;
-    margin-right: 1.375rem;
     padding: 7px 30px;
     color: #FFF;
     font-family: Inter;
-    font-size: 1.5rem;
-    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70px;
+    width: 3.68813rem;
+    height: 1.875rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 700;
 }
 
 .heroe   .rate{
@@ -1149,6 +1151,66 @@ button.active {
     font-size: 0.9375rem;
     font-weight: 400;
 }
+
+.ae{
+    background-color: #323232;
+    height: 20.625rem;
+    margin-top: 135.4px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.ae .aa {
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+}
+
+.ae .aa .stars{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24.1px;
+    margin-top: 59.1px;
+}
+.ae .aa img{
+    position: relative;
+    bottom: 28px;
+}
+
+.ae .aa .text-grupe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ae .aa .text-grupe p{
+    color: #909090;
+    width: 796px;
+    text-align: center;
+    color: #909090;
+    font-family: Segoe UI;
+    font-size: 1.1875rem;
+    font-weight: 400;
+}
+
+.ae .aa .text-grupe .text-tow{
+    margin-top: 1.19rem;
+}
+
+.ae .aa .text-grupe .text-three{
+    background-color: #0B852B;
+    padding: 18px 31px;
+    width: 15.34569rem;
+    height: 3.5rem;
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 0.9375rem;
+    margin-top: 25.1px;
+    border-radius: 12px;
+}
+
 
 /* end */
 
