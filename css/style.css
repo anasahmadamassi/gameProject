@@ -9,6 +9,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #272727;
+    touch-action: manipulation;
 }
 
 /* global Style */
@@ -1322,6 +1323,18 @@ button.active {
     font-weight: 400;
     margin: 27px 25px 16.2px 25px;
 }
+
+.indie .container .indie-img{
+    position: relative;
+    margin-top: 50px;
+}
+
+.indie .container .indie-img .person{
+    position: absolute;
+    left: 188px;
+    top: 70px;
+}
+
 /* end */
 
 /* Responsive */
