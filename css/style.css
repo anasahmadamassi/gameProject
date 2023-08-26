@@ -1054,6 +1054,7 @@ button.active {
     display: flex;
     justify-content: space-between;
     z-index: 11300;
+    margin-top: 41px;
 }
 
 .heroe .container .heroContent .herder .trending{
@@ -1076,7 +1077,6 @@ button.active {
 .heroe .container .heroContent .imgContainer{
     display: flex;
     flex-wrap: wrap;
-    /* max-width: 1920px; */
     justify-content: space-between;
     margin-top: 11.9px;
 }
@@ -1268,6 +1268,60 @@ button.active {
     width: 172px ;
 }
 
+.imgBackground .container{
+    background-image: url(../imgs/games/13480.jpg.png);
+    background-repeat: no-repeat;
+    margin-top: 61.8px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-size: cover;
+    width: 1627.23px;
+    height: 634.09px;
+}
+
+.imgBackground .container p{
+    color: #FFF;
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.imgBackground .container .Fi{
+    margin-left: 227.7px;
+}
+.imgBackground .container .gamesPra{
+    display: flex;
+    align-items: center;
+}
+
+.imgBackground .container .gamesPra .price{
+    margin-left: 23.2px;
+}
+
+.card-group .container .all-card{
+    display: flex;
+    gap: 33.9px;
+    margin-top: 22.8px;
+}
+.card-group .container .all-card .card{
+    width: 24.03669rem;
+    height: 25.96488rem;
+    background-color: #323232;
+    border-radius: 26px;
+}
+.card-group .container .all-card .card svg{
+    margin-top: 8.9px;
+    margin-left:40% ;
+}
+.card-group .container .all-card .card p{
+    color: #909090;
+    font-family: Segoe UI;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    margin: 27px 25px 16.2px 25px;
+}
 /* end */
 
 /* Responsive */
